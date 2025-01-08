@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://i.scdn.co/image/ab67616d0000b273598a62e665d30a2f35c55060');
+            background-size: 1960px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        form {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea, button {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        .color-input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Ism yoz:</label>
+        <input type="text" id="name" placeholder="UPPERCASE">
+
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+
+        <label for="parent">Parent:</label>
+        <input type="text" id="parent">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="dob">Tug'ilgan kun:</label>
+        <input type="date" id="dob">
+
+        <label for="file">Choose File:</label>
+        <input type="file" id="file">
+
+        <label for="color">Rang tanlang:</label>
+        <input type="color" id="color" class="color-input">
+
+        <label for="volume">Ovoz balandligi:</label>
+        <input type="range" id="volume" min="0" max="100">
+
+        <button type="submit">Send</button>
+
+        <label>Garden:</label>
+        <input type="radio" name="education" value="garden"> Garden
+        <input type="radio" name="education" value="school"> School
+        <input type="radio" name="education" value="univer"> Univer
+        <hr>
+        <hr>
+        <label>Til tanlang:</label>
+        <label>
+            <input type="checkbox" name="language" value="rus"> Rus
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="eng"> Eng
+        </label>
+        <label>
+            <input type="checkbox" name="language" value="isp"> Isp
+        </label>
+        <hr>
+        <hr>
+        <hr>
+
+        <label for="comments">Comment:</label>
+        <textarea id="comments" rows="4" cols="50" placeholder="Your comments here..."></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <input type="file" id="jonatish " name="jonatish ">
+        <br>
+        <label for="sarlovha">sarlovha:</label>
+        <input type="text" id="sarlovha" >
+        <img src="sarlovha.jpg" alt="sarlovha"></img>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TcTgYytU68E?si=Ha_W04I4gtW6vtsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>About Me</h2>
+        <br>
+        <br>
+        <input for="img" type="file" accept="image/*">
+
+    </form>
+</body>
+</html>

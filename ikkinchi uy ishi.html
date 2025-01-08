@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noutbook Shop</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .title {
+            text-decoration: underline;
+            color: purple;
+        }
+        .subtitle {
+            font-weight: bold;
+            text-decoration: line-through;
+        }
+        label, select, input, textarea {
+            margin: 5px 0;
+            display: block;
+        }
+        .btn-buy {
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>noutbook shop</h1>
+    <h2><a href="http://localhost:63342/untitled/Uy%20ishi%202%20dars.html?_ijt=pu2h52cnbkbh35vjds978i14ke&_ij_reload=RELOAD_ON_SAVE">Media</a></h2>
+    <h2 class="subtitle">Macbook</h2>
+
+    <label for="type">Turi:</label>
+    <select id="type">
+        <option>HP</option>
+    </select>
+
+    <label for="memory">Xotirasi:</label>
+    <input type="text" id="memory"> GB
+
+    <h3>Keralik portlar:</h3>
+    <label><input type="checkbox"> Type-c</label>
+    <label><input type="checkbox"> Micro-Sd</label>
+    <label><input type="checkbox"> Type-a</label>
+    <label><input type="checkbox"> audio</label>
+    <label><input type="checkbox"> lan</label>
+
+    <h3>Ekran:</h3>
+    <label><input type="radio" name="sensor"> Sensor</label>
+    <label><input type="radio" name="sensor"> Sensor emas</label>
+
+    <label for="address">Manzil:</label>
+    <input type="text" id="address">
+
+    <h3>Video Karta</h3>
+    <label for="generation">Qaysi Avlod?</label>
+    <input type="text" id="generation" value="11">
+
+    <label for="comments">Qo'shimcha:</label>
+    <textarea id="comments" rows="5"></textarea>
+
+    <button class="btn-buy">buy</button>
+</body>
+</html>
